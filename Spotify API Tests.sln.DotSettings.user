@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=13c2fed4_002Dbf0f_002D4298_002Da452_002Dd87e2905bcd6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetArtistRelatedArtists_ArtistIdExists_ReturnsSuccessfulStatusCode" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::78607E00-C221-4041-B85A-855008612C1E::.NETCoreApp,Version=v3.1::Spotify_API_Tests.SpotifyAPITests.GetArtistRelatedArtists_ArtistIdExists_ReturnsSuccessfulStatusCode&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5332edf6_002D1152_002D4d49_002Dbe3f_002D8515f80c598c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetArtistRelatedArtists_ArtistIdExists_ReturnsSuccessfulStatusCode #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::78607E00-C221-4041-B85A-855008612C1E::.NETCoreApp,Version=v3.1::Spotify_API_Tests.SpotifyAPITests.GetArtistRelatedArtists_ArtistIdExists_ReturnsSuccessfulStatusCode&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
