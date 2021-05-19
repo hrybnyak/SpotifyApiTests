@@ -1,33 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yelyzaveta.hrybniak\\source\\repos\\Spotify API Tests\\Spotify API Tests\\Spotify API Tests.csproj": {}
+    "D:\\Code\\SpotifyApiTests\\Spotify API Tests\\Spotify API Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yelyzaveta.hrybniak\\source\\repos\\Spotify API Tests\\Spotify API Tests\\Spotify API Tests.csproj": {
+    "D:\\Code\\SpotifyApiTests\\Spotify API Tests\\Spotify API Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yelyzaveta.hrybniak\\source\\repos\\Spotify API Tests\\Spotify API Tests\\Spotify API Tests.csproj",
+        "projectUniqueName": "D:\\Code\\SpotifyApiTests\\Spotify API Tests\\Spotify API Tests.csproj",
         "projectName": "Spotify API Tests",
-        "projectPath": "C:\\Users\\yelyzaveta.hrybniak\\source\\repos\\Spotify API Tests\\Spotify API Tests\\Spotify API Tests.csproj",
-        "packagesPath": "C:\\Users\\yelyzaveta.hrybniak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yelyzaveta.hrybniak\\source\\repos\\Spotify API Tests\\Spotify API Tests\\obj\\",
+        "projectPath": "D:\\Code\\SpotifyApiTests\\Spotify API Tests\\Spotify API Tests.csproj",
+        "packagesPath": "C:\\Users\\Lisa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\SpotifyApiTests\\Spotify API Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\yelyzaveta.hrybniak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://drbsystemsllc.pkgs.visualstudio.com/_packaging/Tooling%40Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -39,8 +42,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "ExtentReports.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
@@ -77,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
